@@ -16,6 +16,7 @@ class Database
         $use="USE $this->dbname";
         $this->conn->query($use);
         
+        var_dump($this->conn->error);
 
     }
 }
